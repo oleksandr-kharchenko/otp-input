@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  gap: 16px;
+}
+
+.otpInput {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  text-align: center;
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    appearance: none;
+  }
+
+  &:focus {
+    border-color: #00AAFF;
+  }
+}
